@@ -1,0 +1,14 @@
+img{
+    margin: 2em;
+    height: 200px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 15px black;
+}
+.nameBanner{
+    text-align: center;
+}
+#pagetop{   
+    background-image: url('../assets/codeBG5.png');
+    height: 40em;
+    border-radius: 5px;
+}
