@@ -1,4 +1,4 @@
-img{
+#portrait{
     opacity: 0.65;
     margin: 2em;
     height: 200px;
@@ -19,11 +19,14 @@ img{
     margin-top: 3.5em;
     background-image: url('../assets/codeBG5.png');
     background-attachment: fixed;
-    height: 42.5em;
+    height: 43.5em;
     border-radius: 5px;
 }
+#profileContainer{
+    text-align: center;
+}
 #about{
-    height: 42.5em;
+    height: 47em;
     margin-left: 0;
     margin-right: 0;
     background-image: url('../assets/ggb.jpg');
@@ -40,3 +43,24 @@ img{
     text-shadow: -4px, -4px, 8px, white;
     background-color: rgba(237, 236, 236, 0.11);
 }
+#projects{
+    height: 43.5em;
+    background-image: url('../assets/codeBG5.png');
+    background-attachment: fixed;
+}
+#projectsTitle{
+    text-align: center;
+    margin-top: 80px;
+}
+.screenshot{
+    opacity: 1;
+    border-radius: 5px;
+    width: 270px;
+    height: 150px;
+    text-align: center;
+    margin-right: 15px;
+}
+.projectTitle{
+    text-align: center;
+}
+

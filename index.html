@@ -18,7 +18,7 @@
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container-fluid">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsingNav">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -27,10 +27,10 @@
               <a class="navbar-brand" href="#">NB</a>
             </div>
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="collapsingNav">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#about">About</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#">Contact</a></li> 
                 <li><div id="menuspacer"></div></li>  
               </ul>       
@@ -40,8 +40,8 @@
         <div class="container">
             <div id="pagetop">              
                 <div class="row">
-                    <div class="col-lg-12">
-                        <img src="assets/portrait1.jpg">
+                    <div class="col-lg-12" id="profileContainer">
+                        <img src="assets/portrait1.jpg" id="portrait">
                     </div>
                 </div>
                 <div class="row">
@@ -63,6 +63,23 @@
             <div class="row">
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4" id="aboutBanner"><h2 id="aboutTitle"><b>A Little Bit About Me:</b></h2></div>
+            </div>
+        </div>
+        <div class="container" id="projects" name="projects">
+            <div class="row">
+                <div class="col-lg-12"><h2 id="projectsTitle"><b>Projects</b></h2></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3"><a href="http://twitter-lounge.herokuapp.com"><img src="assets/tlounge.png" class="screenshot"></a></div>
+                <div class="col-lg-3"><a href="http://vagabond-ga.herokuapp.com"><img src="assets/vagabond.png" class="screenshot"></a></div>
+                <div class="col-lg-3"><a href="http://moodziq-player.herokuapp.com"><img src="assets/moodziq.png" class="screenshot"></a></div>
+                <div class="col-lg-3"><a href="http://ovarun.herokuapp.com"><img src="assets/ova.png" class="screenshot"></a></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3"><h3 class="projectTitle">Twitter-Lounge</h3><p>Twitter-Lounge is a real time social Twitter experience. The Socket.io powered chat client is accompanied by a configurable live Twitter stream. This project was built using the Node.js/Express/MongoDB stack, with a lightweight jQuery front-end.</p></div>
+                <div class="col-lg-3"><h3 class="projectTitle">Vagabond</h3><p>Vagabond is a social travel blogging site built using Ruby on Rails. Maps are handled using the Google Maps API, and keywords are extracted from the users posts through the text analysis feature of IBM's Alchemy API.</p></div>
+                <div class="col-lg-3"><h3 class="projectTitle">MoodZiq</h3><p>This playlist builder and audio player allows the user to pick a duration and fill that time with the musical genre or mood of their choice. Playlists can be saved and recalled through a clean and intuitive interface. MoodZiq was built using Ruby on Rails and JQuery, and draws its tunes from the SoundCloud API.</p></div>
+                <div class="col-lg-3"><h3 class="projectTitle">ÖVA</h3><p>ÖVA is a run coaching application. An athlete enters their planned weekly training mileage and the days of the week they plan to run, and ÖVA generates a plan based on previous efforts which are gathered through tight integration with Strava.</p></div>
             </div>
         </div>
     </body>
