@@ -1,4 +1,5 @@
 img{
+    opacity: 0.65;
     margin: 2em;
     height: 200px;
     border-radius: 60px;
@@ -7,8 +8,24 @@ img{
 .nameBanner{
     text-align: center;
 }
-#pagetop{   
+#menuspacer{
+    width:10em;
+}
+#name{
+    font-size: 5em;
+    font-family: 'Sirin Stencil', cursive;
+}
+#pagetop{  
+    margin-top: 3.5em;
     background-image: url('../assets/codeBG5.png');
-    height: 40em;
+    background-attachment: fixed;
+    height: 42.5em;
     border-radius: 5px;
+}
+#about{
+    height: 42.5em;
+    margin-left: 0;
+    margin-right: 0;
+    background-image: url('../assets/ggb.jpg');
+    background-size: cover;
 }
