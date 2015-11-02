@@ -1,3 +1,3 @@
 $(function(){
-    $('nav').localScroll({duration:400});
+    $('nav').localScroll({duration:400, hash: true});
 });
