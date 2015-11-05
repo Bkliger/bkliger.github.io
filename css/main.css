@@ -19,7 +19,7 @@
     margin-top: 3.5em;
     background-image: url('../assets/codeBG5.png');
     background-attachment: fixed;
-    height: 43.5em;
+    height: 100vh;
     border-radius: 5px;
 }
 #profileContainer{
@@ -54,7 +54,7 @@
     background-color: rgba(237, 236, 236, 0.38);
 }
 #projects{
-    height: 47em;
+    height: 100vh;
     background-image: url('../assets/codeBG5.png');
     background-attachment: fixed;
 }
@@ -74,7 +74,7 @@
     text-align: center;
 }
 #contact{
-    height: 43.5em;
+    height: 100vh;
     margin-left: 0;
     margin-right: 0;
     background-image: url('../assets/tam.jpg');
