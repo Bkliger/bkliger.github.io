@@ -26,7 +26,7 @@
     text-align: center;
 }
 #about{
-    height: 47em;
+    height: 100vh;
     margin-left: 0;
     margin-right: 0;
     background-image: url('../assets/ggb.jpg');
