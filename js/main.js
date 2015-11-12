@@ -1,4 +1,4 @@
 $(function(){
-    $('nav').localScroll({duration:400, hash: true});
-    $('.navcaret').localScroll({duration:400, hash: true});
+    $('nav').localScroll({duration:150, hash: true});
+    $('.navcaret').localScroll({duration:150, hash: true});
 });
