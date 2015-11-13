@@ -61,7 +61,7 @@ h5{
 */
     line-height: 1.75em;
     font-weight: bolder;
-    background-color: rgba(237, 236, 236, 0.38);
+    background-color: rgba(237, 236, 236, 0.48);
     border-radius: 4px;
 }
 #projects{
@@ -100,11 +100,10 @@ h5{
     vertical-align: top;
 }
 #justifyMost{
-    font-size: 0.9em
+/*    font-size: 0.9em*/
 }
 .learner{
     font-weight: bolder;
-    font-size: 0.91em
 }
 .highlight{
     background-color: rgba(103, 229, 19, 0.17); 
