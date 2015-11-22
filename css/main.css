@@ -5,7 +5,7 @@ h5{
     text-shadow: none;
 }
 #portrait{
-    opacity: 0.65;
+/*    opacity: 0.95;*/
     margin: 2em;
     height: 200px;
     border-radius: 60px;
@@ -25,10 +25,19 @@ h5{
 }
 #pagetop{  
     margin-top: 3.5em;
-    background-image: url('../assets/codeBG5.png');
+    background-image: url('../assets/codeBG7.png');
     background-attachment: fixed;
     height: 100vh;
     border-radius: 5px;
+    z-index: 10;
+}
+#animLayer{
+    background-image: url(../assets/hacker_animation.gif);
+    background-size: cover;
+    
+    z-index: -10;
+    padding: 0;
+/*    opacity: 0.5*/
 }
 #profileContainer{
     text-align: center;
