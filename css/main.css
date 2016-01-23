@@ -107,6 +107,11 @@ h5{
     margin-top: 20em;
     text-align: center;
 }
+#underIcons{
+    height: 45vh;
+    vertical-align: bottom;
+    position: relative;
+}
 i .fa .fa-caret-down .fa-3x{
     padding: 0;
     margin-top: 0px;
@@ -129,5 +134,8 @@ i .fa .fa-caret-down .fa-3x{
 #navcaret{
     padding: 0;
 }
-
-
+#thisSite{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
