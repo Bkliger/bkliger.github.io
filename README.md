@@ -1,6 +1,6 @@
 # My Portfolio Site
 
-####Libraries used: 
+####Libraries/Assets Used: 
 - jQuery
 - Bootstrap
 - Scroll to / Local scroll
