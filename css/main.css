@@ -124,6 +124,7 @@ i .fa .fa-caret-down .fa-3x{
     padding-right: 5px;
     background-color: rgba(103, 229, 19, 0.17); 
     border-radius: 3px;
+    font-weight: bolder;
 }
 #navcaret{
     padding: 0;
