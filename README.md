@@ -3,7 +3,7 @@
 ####Libraries/Assets Used: 
 - jQuery
 - Bootstrap
-- Scroll to / Local scroll
-- Hover.css
+- ScrollTo.JS / LocalScroll.JS
+- Hover.CSS
 - Google fonts
 
