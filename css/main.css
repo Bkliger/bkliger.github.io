@@ -132,10 +132,15 @@ i .fa .fa-caret-down .fa-3x{
     font-weight: bolder;
 }
 #navcaret{
+    text-align: top;
     padding: 0;
 }
 #thisSite{
     position: absolute;
     bottom: 10px;
     right: 10px;
+}
+
+.projectText{
+    font-size: 0.8em;
 }
