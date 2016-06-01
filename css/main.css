@@ -74,8 +74,9 @@ h5{
     border-radius: 4px;
 }
 #projects{
-    height: 100vh;
+    /*height: 100vh;*/
     background-image: url('../assets/codeBG5.png');
+    background-size: cover;
     background-attachment: fixed;
 }
 #projectsTitle{
@@ -86,6 +87,7 @@ h5{
 
 div .col-xs-12.col-sm-4.col-lg-2.project{
     height: 351px;
+    margin-bottom: 40px;
 }
 .screenshot{
     opacity: 1;
@@ -150,4 +152,8 @@ i .fa .fa-caret-down .fa-3x{
 #instructions{
     letter-spacing: 0.3em;
     font-size: 0.5em;
+}
+
+.fa-caret-down{
+    text-decoration: none;
 }
