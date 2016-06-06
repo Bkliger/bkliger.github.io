@@ -42,7 +42,7 @@ h5{
     text-align: center;
 }
 #about{
-    height: 100vh;
+/*    height: 100vh;*/
     margin-left: 0;
     margin-right: 0;
     background-image: url('../assets/ggb1.jpg');
@@ -88,6 +88,7 @@ h5{
 div .col-xs-12.col-sm-4.col-lg-2.project{
     height: 351px;
     margin-bottom: 40px;
+    padding-left: 25px;
 }
 .screenshot{
     opacity: 1;
