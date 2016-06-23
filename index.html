@@ -1,129 +1,160 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
-        <link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-        <link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/slate/bootstrap.min.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Sarpanch:400,600|Sirin+Stencil' rel='stylesheet' type='text/css'>
-        <link type="text/css" href="css/main.css" rel="stylesheet">
-        <link rel='shortcut icon' href='siteicon.ico' type='image/x-icon' >
-        <link rel="stylesheet" type="text/css" href="css/hover.css">
-        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script src="js/jquery.scrollTo.min.js"></script>
-        <script src="js/jquery.localScroll.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
-    </head>
-    <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container-fluid">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/slate/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sarpanch:400,600|Sirin+Stencil' rel='stylesheet' type='text/css'>
+    <link type="text/css" href="css/main.css" rel="stylesheet">
+    <link rel='shortcut icon' href='siteicon.ico' type='image/x-icon'>
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.localScroll.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsingNav">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">BK</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsingNav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">BK</a>
             </div>
 
             <div class="collapse navbar-collapse" id="collapsingNav">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">About</a></li>
-                <li><a href="#arts">Arts/Community</a></li>
-                <li><a href="#Strategy">Strategy</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><div id="menuspacer"></div></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <div class="container" id="animLayer">
-            <div id="pagetop">
-                <div class="row">
-                    <div class="col-lg-12" id="profileContainer">
-                        <img src="assets/portrait1.jpg" id="portrait">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-8">
-                        <h1 class="nameBanner" id="name">BOB KLIGER</BOB></h1>
-                    </div>
-                </div>
-                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6">
-                        <h3 class="nameBanner">Full Stack Web Developer</h3>
-                    </div>
-                </div>
-                <div class="row">
-                   <div class="col-lg-3"></div>
-                   <div class="col-lg-6">
-                       <h3 class="nameBanner">Entrepreneur</h3>
-                   </div>
-               </div>
-               <div class="row">
-                  <div class="col-lg-3"></div>
-                  <div class="col-lg-6">
-                      <h3 class="nameBanner">Musician</h3>
-                  </div>
-              </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6 navcaret" style="text-decoration: none;">
-                        <h3><center><a href="#about"><i class="fa fa-caret-down fa-5x hvr-wobble-vertical visible-lg" style="text-decoration: none !important;"></i></a></center></h3>
-                    </div>
-                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#arts">Arts/Community</a></li>
+                    <li><a href="#Strategy">Strategy</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <div id="menuspacer"></div>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div id="about">
-            <a name='about'></a>
+    </nav>
+    <div class="container" id="animLayer">
+        <div id="pagetop">
             <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4" id="aboutBanner"><h2 id="aboutTitle"><b>About Me:</b></h2></div>
+                <div class="col-lg-12" id="profileContainer">
+                    <img src="assets/portrait1.jpg" id="portrait">
+                </div>
             </div>
-             <div class="row">
+            <div class="row">
                 <div class="col-lg-2"></div>
-                 <div class="col-lg-8" id="aboutText"><center>I'm a <h5 class="highlight">web developer</h5> with a diverse background. With a degree in Music (Jazz Piano) and an MBA in Finance, I began my career with Arthur Andersen (now Accenture).
-                   This provided me with a solid foundation in systems analysis and database design. Over the years I have worked as a Product Manager, Project Manager and founded my own succesful Document Management Systems Consulting company (Workgroup Management Inc.).
-                   After selling this company to Documentum (now part of EMC), I have worked as a marketing strategy consultant and renewed my love of music. I recently refreshed my technical skills, taking a 12-week web development bootcamp at General Assembly.
-                   This gave me a strong foundation in today's most popular technologie stacks - <h5> <span class="highlight"><u>M</u>ongoDB</span> / <span class="highlight"><u>E</u>xpress.JS</span> / <span class="highlight"><u>A</u>ngular.JS</span> / <span class="highlight"><u>N</u>ode.JS</span> &amp; <span class="highlight">Ruby on Rails</span> with <span class="highlight">PostgreSQL</span> </h5>.
-                   I'm looking for an engineering position where I can continue to learn and grow as a developer and take advantage of the many hats that I can wear.<br><a href="bkliger-resume.pdf" target="_blank">Download My Résumé Here</a></center></div>
+                <div class="col-lg-8">
+                    <h1 class="nameBanner" id="name">BOB KLIGER</BOB></h1>
+                </div>
             </div>
             <div class="row">
-                <div class="col-lg-3">></div>
-                <div class="col-lg-6 navcaret" style="padding-bottom: 50px;">
-                    <h3><center><a href="#projects"><i class="fa fa-caret-down fa-3x hvr-wobble-vertical visible-lg"></i></a></center></h3>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <h3 class="nameBanner">Full Stack Web Developer</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <h3 class="nameBanner">Entrepreneur</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <h3 class="nameBanner">Musician</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 navcaret" style="text-decoration: none;">
+                    <h3><center><a href="#about"><i class="fa fa-caret-down fa-5x hvr-wobble-vertical visible-lg" style="text-decoration: none !important;"></i></a></center></h3>
                 </div>
             </div>
         </div>
-        <div class="container-fluid row" id="projects" name="projects">
-            <div class="row">
-                <div class="col-lg-12"><h2 id="projectsTitle"><b>Projects</b><br><small id="instructions">click an image to visit the app on Heroku</small></h2></div>
+    </div>
+    <div id="about">
+        <a name='about'></a>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4" id="aboutBanner">
+                <h2 id="aboutTitle"><b>About Me:</b></h2></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8" id="aboutText">
+                <center>I'm a
+                    <h5 class="highlight">web developer</h5> with a diverse background. With a degree in Music (Jazz Piano) and an MBA in Finance, I began my career with Arthur Andersen (now Accenture). This provided me with a solid foundation in systems analysis and database design. Over the
+                    years I have worked as a Product Manager, Project Manager and founded my own succesful Document Management Systems Consulting company (Workgroup Management Inc.). After selling this company to Documentum (now part of EMC), I have worked
+                    as a marketing strategy consultant and renewed my love of music. I recently refreshed my technical skills, taking a 12-week web development bootcamp at General Assembly. This gave me a strong foundation in today's most popular technologie
+                    stacks -
+                    <h5> <span class="highlight"><u>M</u>ongoDB</span> / <span class="highlight"><u>E</u>xpress.JS</span> / <span class="highlight"><u>A</u>ngular.JS</span> / <span class="highlight"><u>N</u>ode.JS</span> &amp; <span class="highlight">Ruby on Rails</span> with <span class="highlight">PostgreSQL</span> </h5>. I'm looking for an engineering position where I can continue to learn and grow as a developer and take advantage of the many hats that I can wear.
+                    <br><a href="bkliger-resume.pdf" target="_blank">Download My Résumé Here</a></center>
             </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-lg-3 project">
-                    <center><a href="https://shurity.herokuapp.com/" target="_blank"><img src="assets/shurity.png" class="screenshot hvr-rotate"></a></center><br>
-                    <h3 class="projectTitle">Shurity</h3><p class="projectText">Shurity was designed for a startup client as a demo. The focus was to help people purchase electronic equipment without a confusing babble of specs. The app presents a series of simple questions and then produces a set of recommendations. The user can revise the answers and get a different set of recommendations. This project was built with Ruby on Rails and PostgreSQL with limited Javascript and JQuery. </p><small>login: bkliger@comcast.net/ password: 123456</small></p><small><a href="https://github.com/Bkliger/shurity" target="_blank">view the code on GitHub</a></small>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-3 project">
-                    <center><a href="https://frozen-bayou-66708.herokuapp.com/login" target="_blank"><img src="assets/chamber_match.png" class="screenshot hvr-rotate"></a></center><br>
-                    <h3 class="projectTitle">Chamber Match</h3><p class="projectText">Chamber Match serves the international chamber music community. Chamber musicians in all countries and post a notice of an event (get together) and other players can sign up to participate, depending on their skill level. The app was built with Nodejs, Javascript, JQuery and MongoDB</p><small>login: bkliger / password: 1234</small><br><small><a href="https://github.com/Bkliger/project-01" target="_blank">view the code on GitHub</a></small>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-3 project">
-                    <center><a href="https://whispering-fortress-13524.herokuapp.com/" target="_blank"><img src="assets/vagabond.png" class="screenshot hvr-rotate"></a></center><br>
-                    <h3 class="projectTitle">Vagabond</h3><p class="projectText">Vagabond is a social travel blogging site. This was a group project at General Assembly. My focus was security, login/logout and commenting. The app was built with Ruby on Rails and PostgreSQL.</p><small>login: guest@guest.com / password: 123</small><br><small><a href="https://github.com/Bkliger/vagabond_app" target="_blank">view the code on GitHub</a></small>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-3 project">
-                    <center><a href="https://ga-social-app.herokuapp.com/" target="_blank"><img src="assets/ga-social.png" class="screenshot hvr-rotate"></a></center><br>
-                    <h3 class="projectTitle">GA-Social</h3><p class="projectText">This was a group project at General Assembly. It is designed to help students stay in touch after graduation. I was primarily responsible for the nested comments and modals. The app was built with Ruby on Rails and PostgreSQL.</p><small>login: guest@guest.com / password: 123</small><br><small><a href="https://github.com/Bkliger/GA-Social" target="_blank">view the code on GitHub</a></small>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">></div>
+            <div class="col-lg-6 navcaret" style="padding-bottom: 50px;">
+                <h3><center><a href="#projects"><i class="fa fa-caret-down fa-3x hvr-wobble-vertical visible-lg"></i></a></center></h3>
             </div>
-            <!-- <div class="row">
+        </div>
+    </div>
+    <div class="container-fluid row" id="projects" name="projects">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 id="projectsTitle"><b>Projects</b><br><small id="instructions">click an image to visit the app on Heroku</small></h2></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-3 project">
+                <center>
+                    <a href="https://shurity.herokuapp.com/" target="_blank"><img src="assets/shurity.png" class="screenshot hvr-rotate"></a>
+                </center>
+                <br>
+                <h3 class="projectTitle">Shurity</h3>
+                <p class="projectText">Shurity was designed for a startup client as a demo. The focus was to help people purchase electronic equipment without a confusing babble of specs. The app presents a series of simple questions and then produces a set of recommendations.
+                    The user can revise the answers and get a different set of recommendations. This project was built with Ruby on Rails and PostgreSQL with limited Javascript and JQuery. </p><small>login: bkliger@comcast.net/ password: 123456</small></p><small><a href="https://github.com/Bkliger/shurity" target="_blank">view the code on GitHub</a></small>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-3 project">
+                <center>
+                    <a href="https://frozen-bayou-66708.herokuapp.com/login" target="_blank"><img src="assets/chamber_match.png" class="screenshot hvr-rotate"></a>
+                </center>
+                <br>
+                <h3 class="projectTitle">Chamber Match</h3>
+                <p class="projectText">Chamber Match serves the international chamber music community. Chamber musicians in all countries and post a notice of an event (get together) and other players can sign up to participate, depending on their skill level. The app was built
+                    with Nodejs, Javascript, JQuery and MongoDB</p><small>login: bkliger / password: 1234</small>
+                <br><small><a href="https://github.com/Bkliger/project-01" target="_blank">view the code on GitHub</a></small>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-3 project">
+                <center>
+                    <a href="https://whispering-fortress-13524.herokuapp.com/" target="_blank"><img src="assets/vagabond.png" class="screenshot hvr-rotate"></a>
+                </center>
+                <br>
+                <h3 class="projectTitle">Vagabond</h3>
+                <p class="projectText">Vagabond is a social travel blogging site. This was a group project at General Assembly. My focus was security, login/logout and commenting. The app was built with Ruby on Rails and PostgreSQL.</p><small>login: guest@guest.com / password: 123</small>
+                <br><small><a href="https://github.com/Bkliger/vagabond_app" target="_blank">view the code on GitHub</a></small>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-3 project">
+                <center>
+                    <a href="https://ga-social-app.herokuapp.com/" target="_blank"><img src="assets/ga-social.png" class="screenshot hvr-rotate"></a>
+                </center>
+                <br>
+                <h3 class="projectTitle">GA-Social</h3>
+                <p class="projectText">This was a group project at General Assembly. It is designed to help students stay in touch after graduation. I was primarily responsible for the nested comments and modals. The app was built with Ruby on Rails and PostgreSQL.</p><small>login: guest@guest.com / password: 123</small>
+                <br><small><a href="https://github.com/Bkliger/GA-Social" target="_blank">view the code on GitHub</a></small>
+            </div>
+        </div>
+        <!-- <div class="row">
 
 
 
@@ -132,17 +163,21 @@
 
             </div> -->
 
-<!--             <div class="row">
+        <!--             <div class="row">
                 <div class="col-lg-3"></div> -->
-                    <div class=" navcaret" style="padding-bottom: 30px;">
-                        <h3><center><a href="#strategy"><i class="fa fa-caret-down fa-3x hvr-wobble-vertical visible-lg" id="projectCaret"></i></a></center></h3>
-                    </div>
-<!--                 </div>
-            </div> -->
+        <div class=" navcaret" style="padding-bottom: 30px;">
+            <h3><center><a href="#strategy"><i class="fa fa-caret-down fa-3x hvr-wobble-vertical visible-lg" id="projectCaret"></i></a></center></h3>
+        </div>
+    </div>
 
-  <div id="strategy" name="strategy">
-    <div class="container">
-      <table class="table">
+    <div id="strategy" name="strategy">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 id="strategyTitle"><b>Market Strategy Engagements</b>
+                </div>
+            </div>
+      <table class="table" id="strategyTable">
         <thead>
           <tr>
             <th>Client Application/Product</th>
@@ -198,40 +233,171 @@
         </tbody>
       </table>
     </div>
-
-
-
-
-
- 
-
-
-
-
-
-
-
+    <div class=" navcaret" style="padding-bottom: 30px;">
+        <h3><center><a href="#arts-community"><i class="fa fa-caret-down fa-3x hvr-wobble-vertical visible-lg" id="projectCaret"></i></a></center></h3>
+    </div>
   </div>
 
-    <div class=" navcaret" style="padding-bottom: 30px;">
-        <h3><center><a href="#contact"><i class="fa fa-caret-down fa-3x hvr-wobble-vertical visible-lg" id="projectCaret"></i></a></center></h3>
-    </div>
 
 
-
-
-        </div>
-        <div id="contact" name="contact">
-            <div class="container">
-                <div class="row" id="contactIcons">
-                    <div class="col-lg-4"><a href="mailto:nick_p_b@yahoo.com"><i class="fa fa-envelope fa-5x hvr-pulse-grow"></i></a></div>
-                    <div class="col-lg-4"><a href="https://github.com/Nick-Brennan" target="_blank"><i class="fa fa-github fa-5x hvr-pulse-grow"></i></a></div>
-                    <div class="col-lg-4"><a href="https://www.linkedin.com/in/brennannick" target="_blank"><i class="fa fa-linkedin fa-5x hvr-pulse-grow"></i></a></div>
-                </div>
-                <div class="row" id="underIcons">
-                <p id="thisSite" class="pull-right"><small><a href="https://github.com/Nick-Brennan/Nick-Brennan.github.io" target="_blank">check out the code for this site</a></small></p>
-                </div>
+    <div id="arts-community" name="arts-community">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+              <h2 class="artsTitles"><b>Board Activities</b></h2>
+              <h3 class="artsTitles"><b>Youth Musical Theater Company (YMTC)</b></h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/v3PwJd7rsck" frameborder="0" allowfullscreen></iframe><br></br>
+              <h3 class="artsTitles"><b>Youth Movement Records</b></h3>
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/HC0wr_baC7c" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-7">
+              <h2 class="artsTitles"><b>Recent Performances and Arrangements</b>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-5" class="albumContainer">
+                <img src="assets/cabaret2.jpg" class="img-fluid albumArt"> <br></br>
+                <img src="assets/cabaret3.jpg" class="img-fluid albumArt">
+            </div>
+            <div class="col-lg-5" class="albumContainer">
+              <table class="table" id="albumTable">
+                <tbody>
+                  <tr>
+                    <td>Taylor the Latte Boy</td>
+                    <td>  <audio controls>
+                         <source src="assets/taylor-the-latte-boy.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Run Away With Me</td>
+                    <td><audio controls>
+                         <source src="assets/run-away-with-me.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Stars and the Moon</td>
+                    <td><audio controls>
+                         <source src="assets/stars-and-the-moon.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Will You Die?</td>
+                    <td><audio controls>
+                         <source src="assets/will-you-die.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Temporary</td>
+                    <td><audio controls>
+                         <source src="assets/temporary.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Happy</td>
+                    <td><audio controls>
+                         <source src="assets/happy.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>I've Learned to Let Things Go</td>
+                    <td><audio controls>
+                         <source src="assets/i've-learned-to-let-things-go.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Taylor the Latte Boy Rebuttal</td>
+                    <td><audio controls>
+                         <source src="assets/taylor-the-latte-boy-rebuttal.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Unexpressed</td>
+                    <td><audio controls>
+                         <source src="assets/unexpressed.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Fine</td>
+                    <td><audio controls>
+                         <source src="assets/fine.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>I'll be Here</td>
+                    <td><audio controls>
+                         <source src="assets/i'll-be-here.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>My Book</td>
+                    <td><audio controls>
+                         <source src="assets/my-book.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>That Smile</td>
+                    <td><audio controls>
+                         <source src=" assets/that-smile.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Children Will Listen</td>
+                    <td><audio controls>
+                         <source src=" assets/children-will-listen.mp3"
+                                 type='audio/mp3'>
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+        <div class=" navcaret" style="padding-bottom: 30px;">
+            <h3><center><a href="#contact"><i class="fa fa-caret-down fa-3x hvr-wobble-vertical visible-lg" id="projectCaret"></i></a></center></h3><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" name="contact">
+        <div class="container">
+            <div class="row" id="contactIcons">
+                <div class="col-lg-4"><a href="mailto:nick_p_b@yahoo.com"><i class="fa fa-envelope fa-5x hvr-pulse-grow"></i></a></div>
+                <div class="col-lg-4"><a href="https://github.com/Nick-Brennan" target="_blank"><i class="fa fa-github fa-5x hvr-pulse-grow"></i></a></div>
+                <div class="col-lg-4"><a href="https://www.linkedin.com/in/brennannick" target="_blank"><i class="fa fa-linkedin fa-5x hvr-pulse-grow"></i></a></div>
+            </div>
+            <div class="row" id="underIcons">
+            <p id="thisSite" class="pull-right"><small><a href="https://github.com/Nick-Brennan/Nick-Brennan.github.io" target="_blank">check out the code for this site</a></small></p>
+            </div>
+        </div>
+    </div>
     </body>
 </html>
