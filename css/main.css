@@ -23,7 +23,7 @@ h5{
     letter-spacing: 0.3em;
     word-spacing: 0.3em
 }
-#pagetop{  
+#pagetop{
     margin-top: 3.5em;
     background-image: url('../assets/codeBG7.png');
     background-attachment: fixed;
@@ -34,7 +34,7 @@ h5{
 #animLayer{
     background-image: url(../assets/hacker_animation.gif);
     background-size: cover;
-    
+
     z-index: -10;
     padding: 0;
 }
@@ -45,21 +45,41 @@ h5{
 /*    height: 100vh;*/
     margin-left: 0;
     margin-right: 0;
-    background-image: url('../assets/ggb1.jpg');
+    background-image: url('../assets/computer.jpg');
+    background-size: cover;
+}
+
+#strategy{
+/*    height: 100vh;*/
+    margin-left: 0;
+    margin-right: 0;
+    background-image: url('../assets/sky.jpg');
     background-size: cover;
 }
 #aboutBanner{
-    color: #272b30;    
+    color: #272b30;
     margin-top: 15em;
-    text-align: center;   
+    text-align: center;
 }
 #aboutTitle{
     text-align: center;
-    text-shadow: 2px 2px 6px grey;
-    text-shadow: -4px, -4px, 8px, white;
+    /*text-shadow: 2px 2px 6px grey;
+    text-shadow: -4px, -4px, 8px, white;*/
     background-color: rgba(237, 236, 236, 0.48);
     border-radius: 4px;
 }
+
+.table {
+  background-color: transparent;
+  color: black;
+  margin-top: 3.5em;
+}
+
+/*table tr td, table tr th{
+    background-color: rgba(210,130,240, 0.3);
+}*/
+
+
 #aboutText{
     text-align: center;
     color:#272b30;
@@ -132,7 +152,7 @@ i .fa .fa-caret-down .fa-3x{
 .highlight{
     padding-left: 5px;
     padding-right: 5px;
-    background-color: rgba(103, 229, 19, 0.17); 
+    background-color: rgba(103, 229, 19, 0.17);
     border-radius: 3px;
     font-weight: bolder;
 }
