@@ -3,6 +3,11 @@ h5{
     display: inline;
     font-weight: bolder;
     text-shadow: none;
+    font-size: 18pt;
+}
+
+smallText {
+  font-size: 1em;
 }
 #portrait{
 /*    opacity: 0.95;*/
@@ -45,26 +50,41 @@ h5{
 /*    height: 100vh;*/
     margin-left: 0;
     margin-right: 0;
-    background-image: url('../assets/computer.jpg');
+    background-image: url('../assets/sierras.jpg');
     background-size: cover;
 }
 
 #strategy{
 /*    height: 100vh;*/
+    width: 100%;
     margin-left: 0;
     margin-right: 0;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,d2ebf9+100;Blue+3D+%2312 */
+
+
+
+
+  background-size: cover;
+}
+
+#strategyTitle{
+    text-align: center;
+    /*text-shadow: 2px 2px 6px grey;
+    text-shadow: -4px, -4px, 8px, white;*/
+    background-color: #B8E9FF;
+    border-radius: 4px;
+    color: black;
+      margin-top: 60px;
+}
+
+#strategyTable{
+  font-size: 14pt;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,d2ebf9+100;Blue+3D+%2312 */
   background: #feffff; /* Old browsers */
   background: -moz-linear-gradient(top,  #feffff 0%, #d2ebf9 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  #feffff 0%,#d2ebf9 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #feffff 0%,#d2ebf9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d2ebf9',GradientType=0 ); /* IE6-9 */
 
-
-
-
-    /*background-image: url('../assets/sky.jpg');*/
-    background-size: cover;
 }
 
 .artsTitles {
@@ -73,10 +93,12 @@ h5{
 
 }
 
-#strategyTable{
-  font-size: 14pt;
+.artsSubTitles {
+  color: white;
 
 }
+
+
 .albumArt {
   max-width: 100%;
 
@@ -98,14 +120,7 @@ h5{
     border-radius: 4px;
 }
 
-#strategyTitle{
-    text-align: center;
-    /*text-shadow: 2px 2px 6px grey;
-    text-shadow: -4px, -4px, 8px, white;*/
-    background-color: #B8E9FF;
-    border-radius: 4px;
-    color: black;
-}
+
 
 .table {
   background-color: transparent;
@@ -121,21 +136,28 @@ h5{
 #aboutText{
     text-align: center;
     color:#272b30;
-/*
-    text-shadow:1px 1px 1px black;
-    text-shadow: 2px 2px 6px grey;
-    text-shadow: -4px, -4px, 2px, white;
-*/
     line-height: 1.75em;
     font-weight: bolder;
     background-color: rgba(237, 236, 236, 0.48);
     border-radius: 4px;
+    font-size: 1em;
+}
+
+.highlight{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(103, 229, 19, 0.17);
+    border-radius: 3px;
+    font-weight: bolder;
+    font-size: 1em;
 }
 #projects{
     /*height: 100vh;*/
     background-image: url('../assets/codeBG5.png');
     background-size: cover;
     background-attachment: fixed;
+    margin-right: 0px;
+    margin-left: 20px
 }
 #projectsTitle{
     text-align: center;
@@ -151,8 +173,8 @@ div .col-xs-12.col-sm-4.col-lg-2.project{
 .screenshot{
     opacity: 1;
     border-radius: 5px;
-    width: 180px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
     text-align: center;
     margin-right: 15px;
 }
@@ -187,16 +209,11 @@ i .fa .fa-caret-down .fa-3x{
 .learner{
     font-weight: bolder;
 }
-.highlight{
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: rgba(103, 229, 19, 0.17);
-    border-radius: 3px;
-    font-weight: bolder;
-}
-#navcaret{
+
+.navcaret{
     text-align: top;
     padding: 0;
+    margin-bottom: 400px;
 }
 #thisSite{
     position: absolute;
@@ -205,7 +222,7 @@ i .fa .fa-caret-down .fa-3x{
 }
 
 .projectText{
-    font-size: 0.8em;
+    font-size: 1.5em;
 }
 
 #instructions{
