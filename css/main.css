@@ -109,7 +109,7 @@ smallText {
 }
 #aboutBanner{
     color: #272b30;
-    margin-top: 15em;
+    margin-top: 7em;
     text-align: center;
 }
 #aboutTitle{
@@ -233,3 +233,9 @@ i .fa .fa-caret-down .fa-3x{
 .fa-caret-down{
     text-decoration: none;
 }
+
+/** {
+   background: #000 !important;
+   color: #0f0 !important;
+   outline: solid #f00 1px !important;
+}*/
