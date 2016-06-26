@@ -6,6 +6,10 @@ h5{
     font-size: 18pt;
 }
 
+#warning {
+  margin-top: -15px;
+}
+
 smallText {
   font-size: 1em;
 }
@@ -24,20 +28,27 @@ smallText {
 }
 #name{
     font-size: 5em;
-    font-family: 'Sirin Stencil', cursive;
+    font-family: 'Helvetica Neue', sans-serif;;
     letter-spacing: 0.3em;
     word-spacing: 0.3em
 }
 #pagetop{
     margin-top: 3.5em;
-    background-image: url('../assets/codeBG7.png');
+    /*background-image: url('../assets/codeBG7.png');*/
     background-attachment: fixed;
     height: 100vh;
     border-radius: 5px;
     z-index: 10;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
+    background: #4c4c4c; /* Old browsers */
+    background: -moz-linear-gradient(top,  #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
 }
 #animLayer{
-    background-image: url(../assets/hacker_animation.gif);
+    /*background-image: url(../assets/hacker_animation.gif);*/
     background-size: cover;
 
     z-index: -10;
